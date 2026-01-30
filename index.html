@@ -92,10 +92,11 @@
             padding: 20px;
             width: calc(33% - 20px);
             box-sizing: border-box;
-            transition: transform 0.3s;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
         .property:hover {
             transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         .property img {
             width: 100%;
@@ -153,20 +154,20 @@
         <div class="properties">
             <div class="property">
                 <img src="https://via.placeholder.com/300x200?text=Casa+1" alt="Casa 1">
-                <h3>Aptm Moderna em Alphaville</h3>
+                <h3>Casa Moderna em Alphaville</h3>
                 <p>R$ 1.500.000</p>
                 <p>3 quartos, 2 banheiros, garagem.</p>
             </div>
             <div class="property">
                 <img src="https://via.placeholder.com/300x200?text=Apartamento+1" alt="Apartamento 1">
                 <h3>Apartamento Luxuoso</h3>
-                <p>R$ 860.000</p>
-                <p>2 suítes, 1 lavabo, vista para o lago.</p>
+                <p>R$ 800.000</p>
+                <p>2 quartos, 1 banheiro, vista para o lago.</p>
             </div>
             <div class="property">
                 <img src="https://via.placeholder.com/300x200?text=Terreno+1" alt="Terreno 1">
                 <h3>Terreno para Construção</h3>
-                <p>R$ 2.000.000</p>
+                <p>R$ 500.000</p>
                 <p>500m² em área nobre de Alphaville.</p>
             </div>
         </div>
@@ -181,8 +182,8 @@
     <section id="contact" class="section contact">
         <h2>Contato</h2>
         <p>Entre em contato conosco para mais informações.</p>
-        <p>Email: Germanagabriella44@gmail.com</p>
-        <p>Telefone: +55 11 98628-0772</p>
+        <p>Email: corretoragermanaaraujo@gmail.comr</p>
+        <p>Telefone: 11 98628-0772</p>
     </section>
 
     <footer>
@@ -190,7 +191,7 @@
     </footer>
 
     <script>
-        // Script simples para navegação suave
+        // Navegação suave
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
